@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>Tienda Genérica</title>
+<link href="../static/css/bootstrap.css" rel="stylesheet"
+	th:href="@{/css/bootstrap.css}">
+<link href="../static/styles.css" rel="stylesheet"
+	th:href="@{/styles.css}">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+	integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+	crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container ">
+		<h1 class="title m-5">Tienda La Genérica</h1>
+		
+		<div class="cards d-flex">
+			<div class="card">
+				<a href="/usuario"> <label class="icon"> <i
+						class="fas fa-user-circle"></i></label>
+					<h3>Usuarios</h3>
+				</a>
+			</div>
+
+			<div class="card">
+				<a
+					class="d-flex flex-column justify-content-center align-items-center">
+					<label class="icon"> <i class="fas fa-users"></i></label>
+					<h3>Clientes</h3>
+				</a>
+			</div>
+
+			<div class="card">
+				<a
+					class="d-flex flex-column justify-content-center align-items-center">
+					<label class="icon"> <i class="fab fa-product-hunt"></i></label>
+					<h3>Productos</h3>
+				</a>
+			</div>
+
+			<div class="card">
+				<a
+					class="d-flex flex-column justify-content-center align-items-center">
+					<label class="icon"> <i class="fas fa-shopping-cart"></i></label>
+					<h3>Ventas</h3>
+				</a>
+			</div>
+
+			<div class="card">
+				<a
+					class="d-flex flex-column justify-content-center align-items-center">
+					<label class="icon"> <i class="far fa-file-alt"></i></label>
+					<h3>Detalles Ventas</h3>
+				</a>
+			</div>
+
+			<div class="card">
+				<a
+					class="d-flex flex-column justify-content-center align-items-center">
+					<label class="icon"> <i class="far fa-handshake"></i></label>
+					<h3>Proveedores</h3>
+				</a>
+			</div>
+
+
+		</div>
+
+	</div>
+</body>
+</html>
